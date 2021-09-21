@@ -10,7 +10,7 @@ This fork was created because https://www.spigotmc.org/members/chevels.51212/ co
 It may or may not be updated in the future, however, its likely to be compatible with future spigot versions.
 
 This fork of WorldguardExtraFlags has the following changes:
-- Updated worldguard extra flags to use java 16 dependences to support 1.17
+- Updated worldguard extra flags to use java 16 dependencies to support 1.17
 - Re-Activated the flags allow-block-place & deny-block-place and fixed an issue with them.
 - Added two flags:
 ALLOW_ENTITY_PLACE
