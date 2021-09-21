@@ -1,4 +1,4 @@
-This is a fork of WorldguardExtraFlags, that hast the following changes:
+This is a fork of WorldguardExtraFlags, that has the following changes:
 - Updated worldguard extra flags to use java 16 dependencays to support 1.17
 - Re-Activated the flags allow-block-place & deny-block-place and fixed an issue with them.
 - Added two flags:
