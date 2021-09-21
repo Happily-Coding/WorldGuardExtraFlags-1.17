@@ -6,7 +6,7 @@ Original plugin: https://www.spigotmc.org/resources/worldguard-extra-flags.4823/
 Original plugin source: https://github.com/aromaa/WorldGuardExtraFlagsPlugin
 
 
-This fork was created because https://www.spigotmc.org/members/chevels.51212/ commissioned it. It was shared with her permission to help the community.
+This fork was created because https://www.spigotmc.org/members/chevels.51212/ commissioned it. It was shared with both her and mine permission to help the community.
 It may or may not be updated in the future, however, its likely to be compatible with future spigot versions.
 
 This is fork of WorldguardExtraFlags has the following changes:
