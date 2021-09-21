@@ -9,7 +9,7 @@ Original plugin source: https://github.com/aromaa/WorldGuardExtraFlagsPlugin
 This fork was created because https://www.spigotmc.org/members/chevels.51212/ commissioned it. It was shared with both her and mine permission to help the community.
 It may or may not be updated in the future, however, its likely to be compatible with future spigot versions.
 
-This is fork of WorldguardExtraFlags has the following changes:
+This fork of WorldguardExtraFlags has the following changes:
 - Updated worldguard extra flags to use java 16 dependencays to support 1.17
 - Re-Activated the flags allow-block-place & deny-block-place and fixed an issue with them.
 - Added two flags:
