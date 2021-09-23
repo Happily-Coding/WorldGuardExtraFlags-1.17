@@ -39,14 +39,14 @@ public class EntityPlaceListener implements Listener
     Set<EntityType> allowedEntityPlacements =  WorldGuardUtils.queryValue(playerWhoPlaced, entity.getWorld(), regions.getRegions(), Flags.ALLOW_ENTITY_PLACE);
     if(allowedEntityPlacements !=null && !allowedEntityPlacements.contains(entity.getType())){
       event.setCancelled(true);
+      playerWhoPlaced.updateInventory();
     }
-    
     
     Set<EntityType> deniedEntityPlacements = WorldGuardUtils.queryValue(playerWhoPlaced, entity.getWorld(), regions.getRegions(), Flags.DENY_ENTITY_PLACE); //If there is a list of denied materials, and it includes this block, deny the placement
     if (deniedEntityPlacements != null && deniedEntityPlacements.contains(entity.getType())){
       event.setCancelled(true);
+      playerWhoPlaced.updateInventory();
     }
-    playerWhoPlaced.getEquipment().setItemInMainHand(playerWhoPlaced.getEquipment().getItemInMainHand());
   }
   
 }
